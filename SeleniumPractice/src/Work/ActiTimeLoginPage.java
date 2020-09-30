@@ -10,8 +10,8 @@ public class ActiTimeLoginPage {
 	public static void main(String[] args) throws Exception {
 		System.setProperty("webdriver.gecko.driver","./drivers/geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
-		driver.manage().window().maximize();
 		driver.get("http://localhost:8080/login.do");
+		driver.manage().window().maximize();
 		WebElement unTB=driver.findElement(By.id("username"));
 		unTB.clear();
 		unTB.sendKeys("admin");
