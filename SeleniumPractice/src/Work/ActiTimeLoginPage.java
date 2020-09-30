@@ -17,7 +17,7 @@ public class ActiTimeLoginPage {
 		unTB.sendKeys("admin");
 		WebElement passTB=driver.findElement(By.name("pwd"));
 		passTB.clear();
-		passTB.sendKeys("R@m143o87");
+		passTB.sendKeys("manager");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("(//div[contains(text(),'Login')])[1]")).click();
 		//driver.findElement(By.linkText("Click ActiTIME link")).click();
