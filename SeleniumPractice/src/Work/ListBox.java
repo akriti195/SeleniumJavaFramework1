@@ -13,10 +13,11 @@ public class ListBox extends Base{
 
 	public static void main(String[] args) {
 		driver.manage().window().maximize();
-		driver.get("E:\\Selenium\\ListBox_Breakfast.html");
+		driver.get("file:\\E:\\Selenium\\ListBox_Breakfast.html");
 		WebElement list=driver.findElement(By.id("mtr"));
 		Select s=new Select(list);
         Collection<WebElement> options=s.getOptions();
+        System.out.println("Options are :"+options);
         int count=options.size();
         System.out.println("Web Element present inside the list box is : "+count);
         for(WebElement webelement:options) {
