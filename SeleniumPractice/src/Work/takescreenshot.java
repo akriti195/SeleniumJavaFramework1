@@ -16,7 +16,7 @@ public class takescreenshot extends Base
 		driver.get("https://www.google.com");
 		TakesScreenshot ts=(TakesScreenshot)driver;
 		File srcFile=ts.getScreenshotAs(OutputType.FILE);
-		File destFile=new File("./Screenshot/Google.jpeg");
+		File destFile=new File("./Screenshot/Google_Home_Page.png");
 		Files.copy(srcFile, destFile);
 		driver.close();
 		

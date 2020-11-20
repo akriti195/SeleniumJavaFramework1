@@ -3,17 +3,7 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="scripts.TestLogin"/>
+      <class name="Work.Checking_Alert"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="scripts.TestLogin">
-        <methods>
-          <include name="openApplication"/>
-          <include name="testLogin"/>
-        </methods>
-      </class> <!-- scripts.TestLogin -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -3,13 +3,7 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
-      <class name="TestNG.MethodsDependencyonOtherMethods"/>
-      <class name="TestNG.TestNgGroup"/>
-      <class name="scripts.TestLogin"/>
-      <class name="Work.LaunchFirefoxAndChromeTogether"/>
-      <class name="TestNG.ClassTestNg"/>
-      <class name="Work.TestMethod"/>
-      <class name="TestNG.TwoTestMethodsareDependentoneachOtherforException"/>
+      <class name="Work.ActiTimeLoginPage"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

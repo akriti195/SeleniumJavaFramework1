@@ -11,8 +11,8 @@ public class Base {
 		System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 }
 	
-		public static WebDriver driver=new FirefoxDriver();
-		//public static WebDriver driver=new ChromeDriver();
+		//public static WebDriver driver=new FirefoxDriver();
+		public static WebDriver driver=new ChromeDriver();
 
 	}
 	

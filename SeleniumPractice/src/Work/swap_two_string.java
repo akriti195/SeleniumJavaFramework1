@@ -6,9 +6,9 @@ public class swap_two_string {
      String a = "Ram";
      String b="Mani";
      a=a+b;
-    System.out.println("Before swapping the string is :"+a);
+    System.out.println("Before swapping the string is: a="+a+" and b="+b);
     b=a.substring(0, a.length()-b.length());
-    System.out.println(b);
+   // System.out.println(b);
     a=a.substring(b.length());
-    System.out.println("After swapping :a="+a+" and b="+b);
+    System.out.println("After swapping:a="+a+" and b="+b);
 }}

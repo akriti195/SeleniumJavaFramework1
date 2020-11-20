@@ -15,6 +15,7 @@ public class sum_of_1_to_n {
 			 
 		}
 		System.out.println("The Sum Of "+n+" Numbers are:" +sum);	
+		sc.close();
 		
 	}
 
